@@ -32,4 +32,4 @@ def main():
     preprocessed_lines = preprocess_lines(lines)
     words = split_into_words(preprocessed_lines)
     word_counts = count_words(words)
-    #write_word_counts(output_folder, word_counts)
+    write_word_counts(output_folder, word_counts)
